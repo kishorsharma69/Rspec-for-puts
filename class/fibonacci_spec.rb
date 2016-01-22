@@ -16,9 +16,9 @@ describe "fibonacci series" do
     end
   end
 
-  context "#print_fibonacci" do
+  context "#print_output" do
     it "should print fibonacci series" do
-      expect{print_fibonacci(2)}.to output("the output is 2\n").to_stdout
+      expect{print_output(2)}.to output("the output is 2\n").to_stdout
     end
   end
 

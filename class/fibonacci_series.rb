@@ -21,7 +21,7 @@ end
 
 # fibonacci_series(4)
 
-def print_fibonacci(a)
+def print_output(a)
 =begin
   a = input_numb
   b = fibonacci_series(a)
@@ -35,6 +35,6 @@ end
 def main
   a = input_numb
   b =  fibonacci_series(a)
-  print_fibonacci(b)
+  print_output(b)
 end
 main
